@@ -20,7 +20,7 @@ If you want to run from source and not install:
 
 ```bash
 git clone https://github.com/theonewolf/TermRecord.git
-src/TermRecord -o /tmp/test.html -m templates/static.jinja2
+bin/TermRecord -o /tmp/test.html -m termrecord/templates/static.jinja2
 ```
 
 replacing `/tmp/test.html` with whatever you want the output file to be named.
@@ -73,7 +73,7 @@ like iPads etc.). Basically, the consumer only needs a modern browser.
 ## Usage
 
 Just getting started? The defaults are probably fine for you, just specify an
-output HTML file and go: `TermRecord -o mysession.html`.  For more complex
+output HTML file and go: `TermRecord -o mysession.html`.  After recording, type: `exit`, then check `mysession.html`. For more complex
 operations checkout `TermRecord --help`.
 
 There are three main modes of operation: (1) wrap the `script` program and dump
